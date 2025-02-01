@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Tweet Generator",
+  "version": "1.0.0",
+  "description": "Generate tweets from selected text using Gemini AI",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["assets/content.js"]
+    }
+  ]
+}
