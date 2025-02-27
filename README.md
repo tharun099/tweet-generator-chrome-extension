@@ -110,14 +110,6 @@ The **Tweet Generator** is a powerful Chrome extension that transforms selected 
 
 ---
 
-## Visual Representations
-1. **Choose from various writing tones.**
-2. **Specify the tweet length.**
-3. **Modify the default prompt to get a customized output.**
-4. **View the generated tweet and post it directly to social media platforms.**
-
----
-
 ## Installation & Usage
 
 ### Installation
@@ -153,11 +145,6 @@ The **Tweet Generator** is a powerful Chrome extension that transforms selected 
 
 ## Contributing
 We welcome contributions! Feel free to submit a pull request or report any issues.
-
----
-
-## License
-This project is licensed under the **MIT License**.
 
 ---
 
